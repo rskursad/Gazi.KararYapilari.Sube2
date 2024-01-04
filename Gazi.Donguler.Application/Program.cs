@@ -384,9 +384,9 @@ namespace Gazi.Donguler.Application
                 }
             }
             while (guess != number);
-            if (count <= 5)
+            if (difficulty=="easy"||difficulty=="e")
             { Console.WriteLine($"Your scor:{point - (20 * (count-1))}"); }
-            else if (5 < count && count <= 30)
+            else if (difficulty=="medium"||difficulty=="m")
             { Console.WriteLine($"Your scor:{(point) - ((10 / 3) * (count-1))}"); }
             else
             { Console.WriteLine($"Your scor:{point - ((count-1) / 3)}"); }
