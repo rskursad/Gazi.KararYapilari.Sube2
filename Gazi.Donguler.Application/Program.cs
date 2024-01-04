@@ -315,12 +315,7 @@ namespace Gazi.Donguler.Application
             //    Console.WriteLine();
             //}
             string difficulty;
-            int number = 0;
-            int guess;
-            int count = 0;
-            int right = 0;
-            int hintcounter = 0;
-            int point = 100;
+            int number = 0,guess,count=0,right=0,hintcounter=0,point=100;
             Random rnd = new Random();
             while (true)
             {
